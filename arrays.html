@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Arrays</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="normalize.css" >
+</head>
+<body>
+    <h1>Arrays</h1>
+    <script type="text/javascript" >
+
+        //to display one variable 
+
+        var myVariable = "sand, shovel, water";
+    var myArray = ["sand", "shovel", "water"];
+    document.write (myArray[0]);
+
+    //to display multiple variables in an array
+
+        var favsubjects = ["maths", "english", "physics", "chemistry"];
+        for(var i = 0; i < favsubjects.length; i++){
+            document.write( favsubjects[i] );
+            document.write("<br>");
+        }
+            document.write("<br><br>");
+        // to display multiple values within multiple values
+        //in other words a multi-dimensional arrray
+
+        var myfriends [
+            ["john", "male", 31],
+            ["sandy", "female", 18],
+            ["marcus", "male", 74]
+        ];
+
+        document.write( myfriends[0][1] );
+
+            </script>
+</body>
+</html>
